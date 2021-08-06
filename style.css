@@ -46,8 +46,12 @@ nav a:hover
 
 
 
-
-
+#Choix_filtres
+{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
 
 .ico_categorie
 {
