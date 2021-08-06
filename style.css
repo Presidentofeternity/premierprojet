@@ -1,3 +1,126 @@
-h1 {
-    color: red;
+
+
+
+#maquette
+{
+    width: 2000px;
+    margin: auto;
+}
+
+/* Header */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.1em;
+    padding-bottom: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover
+{
+    color: #0d1db1;
+    border-top: 3px solid #1212ec;
+}
+
+
+
+
+
+
+.ico_categorie
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+
+
+.hébergements
+{
+    height: 900px;
+   width: 900Px;
+
+  background-color: #dbd4cb;
+}
+
+
+
+
+.populaire
+{
+    height: 900px;
+   width: 900px;
+    background-color: #dbd4cb;
+}
+
+#Les_plus_populaires
+{
+        height: 900px
+        width 900px;
+        display: flex;
+        justify-content:space-around;
+        align-items:baseline;
+        background-color: #dbd4cb;
+    
+}
+
+#Hébergements_à_marseille
+{
+    height: 900px
+    width 900px;
+    display: flex;
+    justify-content:space-around;
+    align-items:baseline;
+    background-color: #dbd4cb;
+
+}
+#footer
+
+{
+   
+    display: flex;
+    justify-content:space-around;
+    align-items:baseline;
+    background-color: #dbd4cb;
+}
+
+nav2 ul
+{
+    list-style-type: none;
+    display:list-item;
+}
+
+nav2 li
+{
+    margin-right: 15px;
+}
+
+nav2 a
+{
+    font-size: 1.1em;
+    padding-bottom: 1px;
+    text-decoration: none;
+    color: black;
 }
