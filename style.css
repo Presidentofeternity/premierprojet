@@ -43,8 +43,8 @@ nav a
 
 nav a:hover
 {
-    color: #0d1db1;
-    border-top: 3px solid #1212ec;
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
 }
 
 
@@ -75,7 +75,7 @@ nav a:hover
  text-align: center;
  text-decoration: none;
     outline: none;
-    border: 4px whitesmoke;
+    border: 4px #DEEBFF;
     
 }
 
@@ -89,7 +89,7 @@ nav a:hover
     text-decoration: none;
     outline: none;
     color: white;
-    background-color: blue;
+    background-color:#0065FC;
     border: none;
     border-radius: 25px;
     box-shadow: 0 9px #999;
@@ -105,8 +105,8 @@ nav a:hover
     text-align: center;
     text-decoration: none;
     outline: none;
-    background-color: rgb(228, 228, 238);
-    border: 4px blue;
+    background-color: #DEEBFF;
+    border: 4px #DEEBFF;
     border-radius: 50px;
     
   }
