@@ -1,3 +1,112 @@
-h1 {
-    color: red;
+
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
 }
+#maquette
+{
+    width: 2000px;
+    margin: auto;
+}
+
+/* Header */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.1em;
+    padding-bottom: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover
+{
+    color: #0d1db1;
+    border-top: 3px solid #1212ec;
+}
+
+
+
+#Choix_filtres
+{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.ico_categorie
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+#recherche
+{
+    display:flex;
+    justify-content:start;
+    align-items: baseline;
+  border-radius: 25px;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+ padding: 1px 50px;
+ text-align: center;
+ text-decoration: none;
+    outline: none;
+    border: 4px whitesmoke;
+    
+}
+
+.button2
+{
+    display: flex;
+    padding: 16px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 9px #999;
+  }
+
+  
+  .filtre_1
+  {
+    display: flexbox;
+    padding: 7px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: rgb(228, 228, 238);
+    border: 4px blue;
+    border-radius: 50px;
+    
+  }
