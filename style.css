@@ -3,12 +3,9 @@
 body
 {
     font-family: 'Open Sans', sans-serif;
-}
-#maquette
-{
-    width: 2000px;
+    width: 3000;
     margin: auto;
-}
+}  
 
 /* Header */
 
@@ -49,12 +46,16 @@ nav a:hover
 
 
 
+
 #Choix_filtres
 {
     display: flex;
     justify-content: start;
     align-items: baseline;
+   
+
 }
+
 
 .ico_categorie
 {
@@ -62,7 +63,31 @@ nav a:hover
     margin-right: 8px;
 }
 
+#boutonlocalisation
+{
+    border-radius: 25px;
+    background-color: #F2F2F2;
+    border-top-right-radius:1px;
+    border-bottom-right-radius:1px ;
+    padding: 14px 22px;
+}
+
+
 #recherche
+{
+  
+  border-radius: 1px;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+ padding: 14px 50px;
+ text-align: center;
+    outline: none;
+    border-bottom: #DEEBFF;
+    margin-right: 0%;
+    
+}
+#rechercher
 {
     display:flex;
     justify-content:start;
@@ -73,12 +98,10 @@ nav a:hover
   cursor: pointer;
  padding: 1px 50px;
  text-align: center;
- text-decoration: none;
     outline: none;
-    border: 4px #DEEBFF;
+    border: 10px black;
     
 }
-
 .button2
 {
     display: flex;
@@ -92,41 +115,61 @@ nav a:hover
     background-color:#0065FC;
     border: none;
     border-radius: 25px;
-    box-shadow: 0 9px #999;
+     border-top-left-radius:1px;
+    border-bottom-left-radius:1px ;
+   
+  
   }
 
-  
+  #economique
+  {
+
+    background-color: #DEEBFF;
+    border-radius: 50px;
+    padding: 5px;
+
+  }
+
   .filtre_1
   {
     display: flexbox;
-    padding: 7px 20px;
-    font-size: 12px;
+    padding: 5px 20px;
+    font-size: 10px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
-    background-color: #DEEBFF;
-    border: 4px #DEEBFF;
-    border-radius: 50px;
-    
+    border-radius: 30px;
+    margin-left: 50px;
+    border: 1px solid #DEEBFF;
+
   }
 
   .hébergements
   {
       width: 100%;
-      min-width: 400px;
-      max-width: 800px;
-      margin: 0 auto
-     
+      min-width: 150px;
+      max-width: 200px;
+      margin: 0,5px;
+      font-size: 0,5em;
+      float:left;
+
       
   }
 
   .hébergement
   {
-      width: 40%;
-      height: 60%;
-      display: inline-flex;
-      align-items:horizontal
-      justify-content: space-between;
+      width: 60%;
+      height: 40%;
+      margin: auto;
+     
   }
   
+  #Hébergements_à_marseille
+  {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    
+    
+  }
