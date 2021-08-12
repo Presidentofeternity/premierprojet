@@ -45,13 +45,47 @@ nav a:hover
 }
 
 
+.écritofiltr
 
+{
+
+}
+
+.filtre_1
+ {
+   display:flex;
+   justify-content: ;
+   font-size: 15px;
+   cursor: pointer;
+   text-align:left;
+   text-decoration: none;
+   outline:none;
+   margin-left: 50px;
+   align-items: center;
+   border: 4px solid #F2F2F2;
+   border-radius: 50px;
+   padding: 0px;
+   height: 50px;
+
+  
+ 
+ }
+
+.dessinfiltre
+{
+  background-color:#DEEBFF;
+  border-radius: 100px;
+  width: 20px;
+  padding: 14px;
+ 
+ 
+}
 
 #Choix_filtres
 {
-    display: flex;
-    justify-content: start;
-    align-items: baseline;
+    display:flex;
+    justify-content: ;
+    align-items:;
    
 
 }
@@ -65,26 +99,29 @@ nav a:hover
 
 #boutonlocalisation
 {
-    border-radius: 25px;
+    border-radius: 20px;
     background-color: #F2F2F2;
     border-top-right-radius:1px;
     border-bottom-right-radius:1px ;
-    padding: 14px 22px;
+    padding: 18px 19px ;
+    width: 30px;
+  
+    
 }
 
 
 #recherche
 {
   
-  border-radius: 1px;
+  border-radius: 25px;
   color: black;
-  font-size: 16px;
+  font-size: 15px;
   cursor: pointer;
- padding: 14px 50px;
+ padding: 14px 25px ;
  text-align: center;
     outline: none;
-    border-bottom: #DEEBFF;
-    margin-right: 0%;
+    border:none;
+
     
 }
 #rechercher
@@ -92,21 +129,22 @@ nav a:hover
     display:flex;
     justify-content:start;
     align-items: baseline;
-  border-radius: 25px;
+  border-radius:  25px;
   color: black;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
  padding: 1px 50px;
  text-align: center;
     outline: none;
-    border: 10px black;
+    border: 4px solid #F2F2F2;
+    width: 470px;
+    padding: 0px;
     
+  
 }
 .button2
 {
     display: flex;
-    padding: 16px 50px;
-    font-size: 16px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -114,36 +152,15 @@ nav a:hover
     color: white;
     background-color:#0065FC;
     border: none;
-    border-radius: 25px;
+    border-radius: 20px;
      border-top-left-radius:1px;
     border-bottom-left-radius:1px ;
-   
+   padding: 18px 50px;
+   font-size: 16px;
   
-  }
+  
 
-  #economique
-  {
 
-    background-color: #DEEBFF;
-    border-radius: 50px;
-    padding: 5px;
-
-  }
-
-  .filtre_1
-  {
-    display: flexbox;
-    padding: 5px 20px;
-    font-size: 10px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    border-radius: 30px;
-    margin-left: 50px;
-    border: 1px solid #DEEBFF;
-
-  }
 
   .hébergements
   {
