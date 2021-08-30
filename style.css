@@ -413,10 +413,11 @@ nav2 a
                 
             body
             {
-                margin-right: 1px;
+            margin-right: 1px;
             margin-left: 1px;
-            width: auto;
+            width: 80%;
             height: auto;
+            margin: auto;
             }
             
             #Choix_filtres
@@ -433,12 +434,14 @@ nav2 a
             flex-wrap: wrap;
             }
             #hébergementpopulaire{
-                width: auto;
+           
                 flex-wrap: wrap;
+            
             }
             .hebergement
             {
-                width: auto;
+                margin: auto;
+                width: 80%;
                 flex-wrap: wrap;
             }
             #hebergements
@@ -452,8 +455,9 @@ nav2 a
             }
             #Activite_à_Marseille
             {
+                margin: auto;
                 margin-bottom: 100px;
-                width: auto;
+                width: 100%;
                 flex-wrap: wrap;
                 height: 1600px;
             }
@@ -462,7 +466,7 @@ nav2 a
             
 
                 height: 220px;
-               min-width: 400px;
+               min-width: 500px;
 
  
            }
@@ -471,14 +475,26 @@ nav2 a
                width: auto;
                flex-wrap: wrap;
            }
+           #Les_plus_populaire
+           {
+               width: 100%;
+               margin: auto;
+           }
            #hébergementpopulaire
            {
+            width: 95%;
+               margin: auto;
                display:flex;
                flex-wrap: wrap-reverse;
            }
            #hebergements
            {
                height: 1750px;
+           }
+
+           figure1{
+            width: 500px;
+
            }
            .img6
             {
@@ -487,7 +503,7 @@ nav2 a
             }
             .img3
             {
-                width: 400px;
+                width: 100%;
                 height: 170px;
         
             }
@@ -508,7 +524,7 @@ nav2 a
 
         
                 border-radius: 25px;
-                width: 400px;
+                width: 680px;
                 height: 220px;
             }
 
@@ -519,7 +535,7 @@ nav2 a
               
                 margin-top: 1px;
                 border-radius: 25px;
-                width: 400px;
+                width: 680px;
                 height: 220px;
             
 
@@ -529,7 +545,7 @@ nav2 a
             {
                 margin-left: 50px;
                 border-radius: 25px;
-                width: 400px;
+                width: 680px;
                 height: 230px;
                 margin-left: 1px;
             }
@@ -538,7 +554,7 @@ nav2 a
                 margin-left: 50px;
                 margin-left: 50px;
                 border-radius: 25px;
-                width: 400px;
+                width: 680px;
                 height: 230px;
                margin-top: -220px;
 
@@ -548,7 +564,7 @@ nav2 a
                 margin-left: 50px;
                 margin-bottom: 300px;
         
-                width: 400px;
+                width: 680px;
                 height:460px;
             }
             
@@ -557,7 +573,7 @@ nav2 a
             
                 margin-bottom: 300px;
                 margin-left: 50px;
-                   width: 400px;
+                   width: 680px;
                    height: 440px;
                    margin-top: 50px;
             }
@@ -566,14 +582,19 @@ nav2 a
                 margin-left: 50px;
                margin-bottom: 50px;
                 border-radius: 25px;
-                width: 400px;
+                width: 680px;
                 height: 220px;
             }            
             #afficher{
                 margin-top: 1070px;
             }
-         .activite{
+            .activite{
 
-            margin-bottom: 1px;
-         }
+                margin-bottom: 1px;
+            }
+            nav2 ul{
+               
+          display: flex;
+                flex-wrap: wrap;
+            }
 }
