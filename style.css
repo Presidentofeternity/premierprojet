@@ -482,7 +482,7 @@ nav2 a
            }
            #hébergementpopulaire
            {
-            width: 95%;
+               width: 95%;
                margin: auto;
                display:flex;
                flex-wrap: wrap-reverse;
@@ -494,6 +494,8 @@ nav2 a
 
            figure1{
             width: 500px;
+            margin-left: 100px
+            ;
 
            }
            .img6
@@ -524,8 +526,9 @@ nav2 a
 
         
                 border-radius: 25px;
-                width: 680px;
+                width: 550px;
                 height: 220px;
+                margin-left: 50px;
             }
 
 
@@ -535,9 +538,9 @@ nav2 a
               
                 margin-top: 1px;
                 border-radius: 25px;
-                width: 680px;
+                width: 550px;
                 height: 220px;
-            
+                margin-left: 50px;
 
             }
 
@@ -545,16 +548,15 @@ nav2 a
             {
                 margin-left: 50px;
                 border-radius: 25px;
-                width: 680px;
+                width: 550px;
                 height: 230px;
-                margin-left: 1px;
+                margin-left: 50px;
             }
             .figure6
             {
-                margin-left: 50px;
-                margin-left: 50px;
+                margin-left: 100px;
                 border-radius: 25px;
-                width: 680px;
+                width: 550px;
                 height: 230px;
                margin-top: -220px;
 
@@ -564,7 +566,7 @@ nav2 a
                 margin-left: 50px;
                 margin-bottom: 300px;
         
-                width: 680px;
+                width: 550px;
                 height:460px;
             }
             
@@ -573,16 +575,16 @@ nav2 a
             
                 margin-bottom: 300px;
                 margin-left: 50px;
-                   width: 680px;
+                   width: 550px;
                    height: 440px;
                    margin-top: 50px;
             }
             .figure7
             {
-                margin-left: 50px;
+                margin-left: 100px;
                margin-bottom: 50px;
                 border-radius: 25px;
-                width: 680px;
+                width: 550px;
                 height: 220px;
             }            
             #afficher{
