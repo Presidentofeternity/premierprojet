@@ -62,7 +62,6 @@ nav a:hover
 .filtre_1
  {
    display:flex;
-   justify-content: ;
    font-size: 15px;
    cursor: pointer;
    text-align:left;
@@ -459,6 +458,10 @@ nav2 a
                 height: 1400px;
 
             }
+            #hebergements
+            {
+                height: 1750px;
+            }
             #Activite_à_Marseille
             {
                 margin: auto;
@@ -473,11 +476,6 @@ nav2 a
                 height: 220px;
                min-width: 500px;
            }
-           #footer
-           {
-               width: auto;
-               flex-wrap: wrap;
-           }
            #Les_plus_populaire
            {
                width: 100%;
@@ -490,10 +488,9 @@ nav2 a
                display:flex;
                flex-wrap: wrap-reverse;
            }
-           #hebergements
-           {
-               height: 1750px;
-           }
+      
+          
+     
 
            figure1
            {
@@ -600,6 +597,11 @@ nav2 a
             .activite{
 
                 margin-bottom: 1px;
+            }
+            #footer
+            {
+                width: auto;
+                flex-wrap: wrap;
             }
             nav2 ul{
                
