@@ -31,18 +31,18 @@ header
 
 /* Navigation */
 
-nav ul
+.header-nav ul
 {
     list-style-type: none;
     display: flex;
 }
 
-nav li
+.header-nav li
 {
     margin-right: 15px;
 }
 
-nav a
+.header-nav a
 {
     font-size: 1.1em;
     padding-bottom: 3px;
@@ -50,7 +50,7 @@ nav a
     color: black;
 }
 
-nav a:hover
+.header-nav a:hover
 {
     color: #0065FC;
     border-top: 3px solid #0065FC;
@@ -391,19 +391,19 @@ margin-left: 50px;
 }
 
 
-nav2 ul
+.footer-nav ul
 {
     list-style-type: none;
     display:list-item;
   
 }
 
-nav2 li
+.footer-nav li
 {
     margin-right: 300px;
 }
 
-nav2 a
+.footer-nav a
 {
     font-size: 1.1em;
     padding-bottom: 1px;
@@ -602,7 +602,7 @@ nav2 a
                 width: auto;
                 flex-wrap: wrap;
             }
-            nav2 ul{
+            .footer-nav ul{
                
                  display: flex;
                 flex-wrap: wrap;
